@@ -1,0 +1,102 @@
+body {
+    background-color: #f3eaf9;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+p {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 19px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 180px 180px 180px 180px 180px;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.contenido {
+    background: white;
+    text-align: center;
+    border: #CDEA8C 3px solid;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.item-menu {
+    text-align: center;
+}
+
+/* Seccion Branding */
+.image-square {
+    width: 160px;
+    height: 160px;
+    border: #B7EDEA 5px solid;
+}
+
+.grid-container-secbrand {
+    display: grid;
+    grid-template-rows: 3;
+    grid-template-columns: 3;
+    grid-gap: 5px;
+}
+
+.contenido-secbrand {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.item-secbrand {
+    text-align: center;
+}
+
+/* Menu */
+a:link, a:visited {
+    background-color: #BCAAE8;
+    color: white;
+    font-weight: bold;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: #DEBBEF;
+}
+
+/* Seccion Fotografía */
+.image-rectangle-ver {
+    width: 200px;
+    height: 300px;
+}
+
+.image-rectangle-hor {
+    width: 288px;
+    height: 192px;
+    padding-top: 50px;
+}
+
+/*Sseparador */
+.separador {
+    display: block;
+    height: 40px;
+}
+
+.icono {
+    width: 80px; 
+    height: 80px;
+}
